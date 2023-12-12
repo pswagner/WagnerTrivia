@@ -1,0 +1,64 @@
+body {
+  background-color: #f4f4f4;
+  background: linear-gradient(to right, #f4f4f4, #007BFF);
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.App {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  background: white;
+  border-radius: 15px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2em;
+  text-shadow: 2px 2px #007BFF;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  box-shadow: 2px 2px #0056b3;
+  transition: transform 0.9s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.explosion-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.restart-button {
+  position: fixed;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: 2; /* Higher z-index */
+
+}
+
+
